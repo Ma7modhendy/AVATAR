@@ -1,0 +1,83 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right,#01022d,#000);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.home{
+    background-image: linear-gradient(to right,#01022de5 40%,#00000063),url(R.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-position: center;
+}
+.home:hover{
+    background-image: linear-gradient(to right,#01022de5 30%,transparent),url(R.jpg);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+    transition: .3s ease;
+}
+ul a:hover{
+    border-bottom-color:white ;
+}
+.content{
+    color:white;
+    width: 50%;
+    padding: 30px;
+    margin-top: 50px;
+}
+.content h1{
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+.content h3{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0;
+}
+button{
+    font-size: 30px;
+    padding:6px 10px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: .3s ease;
+}
+button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
